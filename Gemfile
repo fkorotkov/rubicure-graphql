@@ -5,7 +5,7 @@ ruby '~> 2.5.4'
 
 gem 'graphql'
 gem 'graphiql-rails'
-gem 'rubicure'
+gem 'rubicure', github: 'sue445/rubicure', branch: "master"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'

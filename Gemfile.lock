@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/sue445/rubicure.git
+  revision: bdd5efc2127774a0620399e779b076d9f8f4aeab
+  branch: master
+  specs:
+    rubicure (1.2.0)
+      activesupport (>= 5.0.0)
+      hashie (>= 2.0.5)
+      sengiri_yaml (>= 0.0.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -143,10 +153,6 @@ GEM
       rspec-mocks (~> 3.8.0)
       rspec-support (~> 3.8.0)
     rspec-support (3.8.0)
-    rubicure (1.2.0)
-      activesupport (>= 5.0.0)
-      hashie (>= 2.0.5)
-      sengiri_yaml (>= 0.0.2)
     ruby_dep (1.5.0)
     sassc (2.0.0)
       ffi (~> 1.9.6)
@@ -204,7 +210,7 @@ DEPENDENCIES
   puma (~> 3.11)
   rails (~> 5.2.1)
   rspec-rails
-  rubicure
+  rubicure!
   sassc-rails
   spring
   spring-watcher-listen (~> 2.0.0)
